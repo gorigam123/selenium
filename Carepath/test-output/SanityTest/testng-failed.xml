@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [SanityTest]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="listeners.CustomListeners"/>
+  </listeners>
+  <test name="SanityTest(failed)">
+    <classes>
+      <class name="testcases.PatientRegistration">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="patient_registration" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.PatientRegistration -->
+    </classes>
+  </test> <!-- SanityTest(failed) -->
+</suite> <!-- Failed suite [SanityTest] -->

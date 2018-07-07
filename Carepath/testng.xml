@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SanityTest" parallel="none" preserve-order="true">
+
+    <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name="listeners.CustomListeners"/>
+    </listeners>
+    
+  <test name="SanityTest">
+		<classes>
+		        
+						<class name="testcases.PatientRegistration"/>
+						<class name="testcases.PatientLogin"/>
+			           	<class name="testcases.Patient_forgotPassword"/>
+                    	<class name="testcases.Patient_EditandSave"/>
+					    <class name="testcases.Patient_AddCaregiver"/>
+					    <class name="testcases.Patient_AddPrescriber"/>
+                        <class name="testcases.Patient_Edit_PrescriberDetails"/>
+                        <class name="testcases.Patient_Add_PrimaryMedInsurance"/>
+                        <class name="testcases.Patient_Edit_PrimaryMedInsurance"/>
+                        <class name="testcases.Patient_Add_SecondaryMedInsurance"/>
+                        <class name="testcases.Patient_Edit_SecondaryMedInsurance"/>
+                        <class name="testcases.Patient_Add_TreatmentLocation"/>
+                        <class name="testcases.Patient_Edit_TreatmentLocation"/>
+            <class name="testcases.ProviderRegistration_IndependentSite"/>
+			<class name="testcases.ProviderLogin"/>
+			<class name="testcases.Provider_forgotPassword"/>
+			<class name="testcases.ProviderRegistration_NewNetworkSite"/>
+			<class name="testcases.ProviderRegistration_SearchExistingSite"/>
+         </classes>
+                 </test>
+	  
+	  </suite> 
+	  

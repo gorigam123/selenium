@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="237.445" tests="18" errors="0" skipped="17" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\IBM_ADMIN\Desktop\Carepath\Carepath\target\test-classes;C:\Users\IBM_ADMIN\Desktop\Carepath\Carepath\target\classes;C:\Users\IBM_ADMIN\.m2\repository\org\testng\testng\6.13.1\testng-6.13.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-java\3.8.1\selenium-java-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-api\3.8.1\selenium-api-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.8.1\selenium-chrome-driver-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.8.1\selenium-edge-driver-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.8.1\selenium-firefox-driver-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.8.1\selenium-ie-driver-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.8.1\selenium-opera-driver-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.8.1\selenium-remote-driver-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.8.1\selenium-safari-driver-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-support\3.8.1\selenium-support-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\IBM_ADMIN\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\IBM_ADMIN\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\IBM_ADMIN\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-server\3.0.1\selenium-server-3.0.1.jar;C:\Users\IBM_ADMIN\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.2.13.v20160825\jetty-repacked-9.2.13.v20160825.jar;C:\Users\IBM_ADMIN\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.23\htmlunit-driver-2.23.jar;C:\Users\IBM_ADMIN\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.23\htmlunit-2.23.jar;C:\Users\IBM_ADMIN\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\IBM_ADMIN\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\IBM_ADMIN\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.23\htmlunit-core-js-2.23.jar;C:\Users\IBM_ADMIN\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.23\neko-htmlunit-2.23.jar;C:\Users\IBM_ADMIN\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\IBM_ADMIN\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\IBM_ADMIN\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.20\cssparser-0.9.20.jar;C:\Users\IBM_ADMIN\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\IBM_ADMIN\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;C:\Users\IBM_ADMIN\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\IBM_ADMIN\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\IBM_ADMIN\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\IBM_ADMIN\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\IBM_ADMIN\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\IBM_ADMIN\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\IBM_ADMIN\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\Users\IBM_ADMIN\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\Users\IBM_ADMIN\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;C:\Users\IBM_ADMIN\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0.jar;C:\Users\IBM_ADMIN\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\IBM_ADMIN\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\IBM_ADMIN\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\IBM_ADMIN\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\IBM_ADMIN\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar;C:\Users\IBM_ADMIN\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\IBM_ADMIN\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar;C:\Users\IBM_ADMIN\.m2\repository\io\appium\java-client\5.0.4\java-client-5.0.4.jar;C:\Users\IBM_ADMIN\.m2\repository\cglib\cglib\3.2.5\cglib-3.2.5.jar;C:\Users\IBM_ADMIN\.m2\repository\org\ow2\asm\asm\5.2\asm-5.2.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\IBM_ADMIN\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\IBM_ADMIN\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\IBM_ADMIN\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\IBM_ADMIN\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\IBM_ADMIN\.m2\repository\org\springframework\spring-context\5.0.0.RELEASE\spring-context-5.0.0.RELEASE.jar;C:\Users\IBM_ADMIN\.m2\repository\org\springframework\spring-aop\5.0.0.RELEASE\spring-aop-5.0.0.RELEASE.jar;C:\Users\IBM_ADMIN\.m2\repository\org\springframework\spring-beans\5.0.0.RELEASE\spring-beans-5.0.0.RELEASE.jar;C:\Users\IBM_ADMIN\.m2\repository\org\springframework\spring-core\5.0.0.RELEASE\spring-core-5.0.0.RELEASE.jar;C:\Users\IBM_ADMIN\.m2\repository\org\springframework\spring-jcl\5.0.0.RELEASE\spring-jcl-5.0.0.RELEASE.jar;C:\Users\IBM_ADMIN\.m2\repository\org\springframework\spring-expression\5.0.0.RELEASE\spring-expression-5.0.0.RELEASE.jar;C:\Users\IBM_ADMIN\.m2\repository\org\aspectj\aspectjweaver\1.8.11\aspectjweaver-1.8.11.jar;C:\Users\IBM_ADMIN\.m2\repository\org\openpnp\opencv\3.2.0-1\opencv-3.2.0-1.jar;C:\Users\IBM_ADMIN\.m2\repository\com\google\guava\guava\22.0\guava-22.0.jar;C:\Users\IBM_ADMIN\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\IBM_ADMIN\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\IBM_ADMIN\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\james\apache-mime4j\0.6.1\apache-mime4j-0.6.1.jar;C:\Users\IBM_ADMIN\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\IBM_ADMIN\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\IBM_ADMIN\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_161\bin"/>
+    <property name="sun.java.command" value="C:\Users\IBM_AD~1\AppData\Local\Temp\surefire641057910831405479\surefirebooter4798435536941128656.jar C:\Users\IBM_ADMIN\AppData\Local\Temp\surefire641057910831405479 2018-06-26T16-23-25_007-jvmRun1 surefire1971356355329481895tmp surefire_04723625992429576181tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\IBM_ADMIN\Desktop\Carepath\Carepath\target\test-classes;C:\Users\IBM_ADMIN\Desktop\Carepath\Carepath\target\classes;C:\Users\IBM_ADMIN\.m2\repository\org\testng\testng\6.13.1\testng-6.13.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-java\3.8.1\selenium-java-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-api\3.8.1\selenium-api-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.8.1\selenium-chrome-driver-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.8.1\selenium-edge-driver-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.8.1\selenium-firefox-driver-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.8.1\selenium-ie-driver-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.8.1\selenium-opera-driver-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.8.1\selenium-remote-driver-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.8.1\selenium-safari-driver-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-support\3.8.1\selenium-support-3.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\IBM_ADMIN\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\IBM_ADMIN\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\IBM_ADMIN\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-server\3.0.1\selenium-server-3.0.1.jar;C:\Users\IBM_ADMIN\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.2.13.v20160825\jetty-repacked-9.2.13.v20160825.jar;C:\Users\IBM_ADMIN\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\IBM_ADMIN\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.23\htmlunit-driver-2.23.jar;C:\Users\IBM_ADMIN\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.23\htmlunit-2.23.jar;C:\Users\IBM_ADMIN\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\IBM_ADMIN\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\IBM_ADMIN\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.23\htmlunit-core-js-2.23.jar;C:\Users\IBM_ADMIN\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.23\neko-htmlunit-2.23.jar;C:\Users\IBM_ADMIN\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\IBM_ADMIN\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\IBM_ADMIN\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.20\cssparser-0.9.20.jar;C:\Users\IBM_ADMIN\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\IBM_ADMIN\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;C:\Users\IBM_ADMIN\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\IBM_ADMIN\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\IBM_ADMIN\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\IBM_ADMIN\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\IBM_ADMIN\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\IBM_ADMIN\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\IBM_ADMIN\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\Users\IBM_ADMIN\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\Users\IBM_ADMIN\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;C:\Users\IBM_ADMIN\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0.jar;C:\Users\IBM_ADMIN\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\IBM_ADMIN\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\IBM_ADMIN\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\IBM_ADMIN\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\IBM_ADMIN\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar;C:\Users\IBM_ADMIN\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\IBM_ADMIN\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar;C:\Users\IBM_ADMIN\.m2\repository\io\appium\java-client\5.0.4\java-client-5.0.4.jar;C:\Users\IBM_ADMIN\.m2\repository\cglib\cglib\3.2.5\cglib-3.2.5.jar;C:\Users\IBM_ADMIN\.m2\repository\org\ow2\asm\asm\5.2\asm-5.2.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\IBM_ADMIN\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\IBM_ADMIN\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\IBM_ADMIN\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\IBM_ADMIN\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\IBM_ADMIN\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\IBM_ADMIN\.m2\repository\org\springframework\spring-context\5.0.0.RELEASE\spring-context-5.0.0.RELEASE.jar;C:\Users\IBM_ADMIN\.m2\repository\org\springframework\spring-aop\5.0.0.RELEASE\spring-aop-5.0.0.RELEASE.jar;C:\Users\IBM_ADMIN\.m2\repository\org\springframework\spring-beans\5.0.0.RELEASE\spring-beans-5.0.0.RELEASE.jar;C:\Users\IBM_ADMIN\.m2\repository\org\springframework\spring-core\5.0.0.RELEASE\spring-core-5.0.0.RELEASE.jar;C:\Users\IBM_ADMIN\.m2\repository\org\springframework\spring-jcl\5.0.0.RELEASE\spring-jcl-5.0.0.RELEASE.jar;C:\Users\IBM_ADMIN\.m2\repository\org\springframework\spring-expression\5.0.0.RELEASE\spring-expression-5.0.0.RELEASE.jar;C:\Users\IBM_ADMIN\.m2\repository\org\aspectj\aspectjweaver\1.8.11\aspectjweaver-1.8.11.jar;C:\Users\IBM_ADMIN\.m2\repository\org\openpnp\opencv\3.2.0-1\opencv-3.2.0-1.jar;C:\Users\IBM_ADMIN\.m2\repository\com\google\guava\guava\22.0\guava-22.0.jar;C:\Users\IBM_ADMIN\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\IBM_ADMIN\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\IBM_ADMIN\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\IBM_ADMIN\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\james\apache-mime4j\0.6.1\apache-mime4j-0.6.1.jar;C:\Users\IBM_ADMIN\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\IBM_ADMIN\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\IBM_ADMIN\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\IBM_ADMIN\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\IBM_ADMIN"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_161"/>
+    <property name="basedir" value="C:\Users\IBM_ADMIN\Desktop\Carepath\Carepath"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\IBM_AD~1\AppData\Local\Temp\surefire641057910831405479\surefirebooter4798435536941128656.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files\Java\jre1.8.0_161\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_161\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="user.name" value="chaitanya"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_161\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\IBM_ADMIN\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\IBM_AD~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="user.dir" value="C:\Users\IBM_ADMIN\Desktop\Carepath\Carepath"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_161\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Personal Communications\;C:\Program Files (x86)\IBM\Trace Facility\;C:\Program Files (x86)\IBM\Mobility Client\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\C:\Program Files\Java\jdk1.8.0_161\bin\bin;C:\PROGRA~1\IBM\SQLLIB\BIN;C:\PROGRA~1\IBM\SQLLIB\FUNCTION;C:\PROGRA~1\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\eclipse-jee-mars-2-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_161\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="patient_registration" classname="testcases.PatientRegistration" time="0">
+    <skipped message="Skipping the test PatientRegistrationas the Run mode is set as NO"/>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 29141
+Only local connections are allowed.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Jun 26, 2018 4:23:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="patient_Login" classname="testcases.PatientLogin" time="0">
+    <skipped message="Skipping the test PatientLoginas the Run mode is NO"/>
+  </testcase>
+  <testcase name="patientforgotpassword" classname="testcases.Patient_forgotPassword" time="0">
+    <skipped message="Method Patient_forgotPassword.patientforgotpassword(java.util.Hashtable)[pri:0, instance:testcases.Patient_forgotPassword@54a7079e] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="patientdetails_editandsave" classname="testcases.Patient_EditandSave" time="0">
+    <skipped message="Skipping the test Patient_EditandSaveas the Run mode is set as NO"/>
+  </testcase>
+  <testcase name="patient_addCaregiver" classname="testcases.Patient_AddCaregiver" time="0">
+    <skipped message="Skipping the test Patient_AddCaregiveras the Run mode is set as NO"/>
+  </testcase>
+  <testcase name="patient_addprescriber" classname="testcases.Patient_AddPrescriber" time="0">
+    <skipped message="Skipping the test Patient_AddPrescriberas the Run mode is set as NO"/>
+  </testcase>
+  <testcase name="patient_editprescriber" classname="testcases.Patient_Edit_PrescriberDetails" time="0">
+    <skipped message="Method Patient_Edit_PrescriberDetails.patient_editprescriber(java.util.Hashtable)[pri:0, instance:testcases.Patient_Edit_PrescriberDetails@2dc54ad4] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="patient_add_primaryInsurance" classname="testcases.Patient_Add_PrimaryMedInsurance" time="0">
+    <skipped message="Skipping the test Add Primary Insuranceas the Run mode is set as NO"/>
+  </testcase>
+  <testcase name="patient_edit_primaryMedInsurance" classname="testcases.Patient_Edit_PrimaryMedInsurance" time="0">
+    <skipped message="Method Patient_Edit_PrimaryMedInsurance.patient_edit_primaryMedInsurance(java.util.Hashtable)[pri:0, instance:testcases.Patient_Edit_PrimaryMedInsurance@4b0d79fc] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="patient_add_secMedInsurance" classname="testcases.Patient_Add_SecondaryMedInsurance" time="0">
+    <skipped message="Skipping the test Patient_Add_SecondaryMedInsuranceas the Run mode is set as NO"/>
+  </testcase>
+  <testcase name="patient_edit_secMedInsurance" classname="testcases.Patient_Edit_SecondaryMedInsurance" time="0">
+    <skipped message="Skipping the test Patient_Edit_SecondaryMedInsuranceas the Run mode is set as NO"/>
+  </testcase>
+  <testcase name="patient_add_treatmentlocation" classname="testcases.Patient_Add_TreatmentLocation" time="0">
+    <skipped message="Method Patient_Add_TreatmentLocation.patient_add_treatmentlocation(java.util.Hashtable)[pri:0, instance:testcases.Patient_Add_TreatmentLocation@2d710f1a] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="patient_edit_treatmentlocation" classname="testcases.Patient_Edit_TreatmentLocation" time="0">
+    <skipped message="Method Patient_Edit_TreatmentLocation.patient_edit_treatmentlocation(java.util.Hashtable)[pri:0, instance:testcases.Patient_Edit_TreatmentLocation@29215f06] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="provider_reg_IndependentSite" classname="testcases.ProviderRegistration_IndependentSite" time="229.73">
+    <failure message="Locator is not correct" type="java.lang.AssertionError">java.lang.AssertionError: Locator is not correct
+	at testcases.ProviderRegistration_IndependentSite.provider_reg_IndependentSite(ProviderRegistration_IndependentSite.java:205)
+</failure>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//*[contains(@data-ng-click,'c.submitmodal')]"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'IBM135-PC07QFAM', ip: '9.204.101.234', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\IBM_AD~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 2d186d3785f83525f83af615671c6bcb
+*** Element info: {Using=xpath, value=.//*[contains(@data-ng-click,'c.submitmodal')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at base.TestBase.getElement(TestBase.java:163)
+	at base.TestBase.click(TestBase.java:133)
+	at testcases.ProviderRegistration_IndependentSite.provider_reg_IndependentSite(ProviderRegistration_IndependentSite.java:205)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]></system-err>
+  </testcase>
+  <testcase name="provider_Login" classname="testcases.ProviderLogin" time="0">
+    <skipped message="Skipping the test ProviderLoginas the Run mode is set as NO"/>
+  </testcase>
+  <testcase name="providerforgotpassword" classname="testcases.Provider_forgotPassword" time="0">
+    <skipped message="Method Provider_forgotPassword.providerforgotpassword(java.util.Hashtable)[pri:0, instance:testcases.Provider_forgotPassword@48aca48b] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="provider_reg_newNetworksite" classname="testcases.ProviderRegistration_NewNetworkSite" time="0">
+    <skipped message="Skipping the test ProviderRegistration_NewNetworkSiteas the Run mode is set as NO"/>
+  </testcase>
+  <testcase name="provider_reg_searchExistingSite" classname="testcases.ProviderRegistration_SearchExistingSite" time="0">
+    <skipped message="Skipping the test ProviderRegistration_SearchExistingSiteas the Run mode is set as NO"/>
+  </testcase>
+</testsuite>

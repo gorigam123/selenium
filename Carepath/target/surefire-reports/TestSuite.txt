@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 1, Errors: 0, Skipped: 17, Time elapsed: 237.445 s <<< FAILURE! - in TestSuite
+provider_reg_IndependentSite(testcases.ProviderRegistration_IndependentSite)  Time elapsed: 229.73 s  <<< FAILURE!
+java.lang.AssertionError: Locator is not correct
+	at testcases.ProviderRegistration_IndependentSite.provider_reg_IndependentSite(ProviderRegistration_IndependentSite.java:205)
+

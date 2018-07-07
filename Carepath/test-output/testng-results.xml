@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SanityTest" duration-ms="38492" started-at="2018-06-10T11:48:05Z" finished-at="2018-06-10T11:48:43Z">
+    <groups>
+    </groups>
+    <test name="SanityTest" duration-ms="38492" started-at="2018-06-10T11:48:05Z" finished-at="2018-06-10T11:48:43Z">
+      <class name="testcases.PatientRegistration">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.PatientRegistration@413d1baf]" name="setUp" is-config="true" duration-ms="2360" started-at="2018-06-10T17:18:03Z" finished-at="2018-06-10T17:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="patient_registration(java.util.Hashtable)[pri:0, instance:testcases.PatientRegistration@413d1baf]" name="patient_registration" duration-ms="38029" started-at="2018-06-10T17:18:05Z" data-provider="getData" finished-at="2018-06-10T17:18:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Year=1969, state=NY, address2=abcd, zip=46550, MiddleName=Mr., Month=June, phone=9472190001, Date=7, phonetype=Mobile, sex=Male, LastName=Test339, City=New York, FirstName=TestPatient339, address=4109 Lane road, password=Carepath@1, suffix=Sr.}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element not clickable at point (1015,779). Other element would receive the click: <div class="DESKTOP uiPanelManager2 onePanelManager siteforcePanelManager siteforcePanelsContainer" data-aura-rendered-by="32:0" data-aura-class="uiPanelManager2 onePanelManager siteforcePanelManager siteforcePanelsContainer" data-scoped-scroll="true"></div>Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'System info: host: 'LAPTOP-FMPJRGHC', ip: '9.102.42.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: org.openqa.selenium.ie.InternetExplorerDriverCapabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:10986/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: 1b7a52da-0443-466c-9f36-45d19f6cc0f2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element not clickable at point (1015,779). Other element would receive the click: <div class="DESKTOP uiPanelManager2 onePanelManager siteforcePanelManager siteforcePanelsContainer" data-aura-rendered-by="32:0" data-aura-class="uiPanelManager2 onePanelManager siteforcePanelManager siteforcePanelsContainer" data-scoped-scroll="true"></div>Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'System info: host: 'LAPTOP-FMPJRGHC', ip: '9.102.42.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: org.openqa.selenium.ie.InternetExplorerDriverCapabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:10986/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: 1b7a52da-0443-466c-9f36-45d19f6cc0f2at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)at base.TestBase.click(TestBase.java:151)at testcases.PatientRegistration.patient_registration(PatientRegistration.java:57)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patient_registration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.PatientRegistration@413d1baf]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-10T17:18:43Z" finished-at="2018-06-10T17:18:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.PatientRegistration -->
+    </test> <!-- SanityTest -->
+  </suite> <!-- SanityTest -->
+</testng-results>

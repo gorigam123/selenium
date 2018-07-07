@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [SanityTest]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="listeners.CustomListeners"/>
+  </listeners>
+  <test verbose="0" name="SanityTest(failed)">
+    <classes>
+      <class name="testcases.Patient_Edit_PrescriberDetails">
+        <methods>
+          <include name="cleanup"/>
+          <include name="setUp"/>
+          <include name="patient_editprescriber"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.Patient_Edit_PrescriberDetails -->
+      <class name="testcases.ProviderRegistration_SearchExistingSite">
+        <methods>
+          <include name="provider_reg_searchExistingSite" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="cleanup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.ProviderRegistration_SearchExistingSite -->
+      <class name="testcases.Provider_forgotPassword">
+        <methods>
+          <include name="cleanup"/>
+          <include name="providerforgotpassword"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.Provider_forgotPassword -->
+      <class name="testcases.ProviderRegistration_NewNetworkSite">
+        <methods>
+          <include name="cleanup"/>
+          <include name="provider_reg_newNetworksite" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.ProviderRegistration_NewNetworkSite -->
+      <class name="testcases.Patient_Add_PrimaryMedInsurance">
+        <methods>
+          <include name="cleanup"/>
+          <include name="patient_add_primaryInsurance" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.Patient_Add_PrimaryMedInsurance -->
+      <class name="testcases.Patient_forgotPassword">
+        <methods>
+          <include name="patientforgotpassword"/>
+          <include name="cleanup"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.Patient_forgotPassword -->
+      <class name="testcases.Patient_AddCaregiver">
+        <methods>
+          <include name="patient_addCaregiver" invocation-numbers="0"/>
+          <include name="cleanup"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.Patient_AddCaregiver -->
+      <class name="testcases.ProviderLogin">
+        <methods>
+          <include name="cleanup"/>
+          <include name="provider_Login" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.ProviderLogin -->
+      <class name="testcases.ProviderRegistration_IndependentSite">
+        <methods>
+          <include name="cleanup"/>
+          <include name="provider_reg_IndependentSite" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.ProviderRegistration_IndependentSite -->
+      <class name="testcases.Patient_Edit_TreatmentLocation">
+        <methods>
+          <include name="patient_edit_treatmentlocation"/>
+          <include name="setUp"/>
+          <include name="cleanup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.Patient_Edit_TreatmentLocation -->
+      <class name="testcases.PatientRegistration">
+        <methods>
+          <include name="cleanup"/>
+          <include name="setUp"/>
+          <include name="patient_registration" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.PatientRegistration -->
+      <class name="testcases.Patient_Edit_PrimaryMedInsurance">
+        <methods>
+          <include name="patient_edit_primaryMedInsurance"/>
+          <include name="cleanup"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.Patient_Edit_PrimaryMedInsurance -->
+      <class name="testcases.Patient_Add_TreatmentLocation">
+        <methods>
+          <include name="cleanup"/>
+          <include name="patient_add_treatmentlocation"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.Patient_Add_TreatmentLocation -->
+      <class name="testcases.Patient_AddPrescriber">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="patient_addprescriber" invocation-numbers="0"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- testcases.Patient_AddPrescriber -->
+      <class name="testcases.PatientLogin">
+        <methods>
+          <include name="cleanup"/>
+          <include name="patient_Login" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.PatientLogin -->
+      <class name="testcases.Patient_EditandSave">
+        <methods>
+          <include name="cleanup"/>
+          <include name="setUp"/>
+          <include name="patientdetails_editandsave" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.Patient_EditandSave -->
+      <class name="testcases.Patient_Edit_SecondaryMedInsurance">
+        <methods>
+          <include name="cleanup"/>
+          <include name="patient_edit_secMedInsurance" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.Patient_Edit_SecondaryMedInsurance -->
+      <class name="testcases.Patient_Add_SecondaryMedInsurance">
+        <methods>
+          <include name="patient_add_secMedInsurance" invocation-numbers="0"/>
+          <include name="cleanup"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.Patient_Add_SecondaryMedInsurance -->
+    </classes>
+  </test> <!-- SanityTest(failed) -->
+</suite> <!-- Failed suite [SanityTest] -->

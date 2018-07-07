@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SanityTest">
+              <span class="suite-name border-failed">SanityTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SanityTest">
+                    <span>C:\Users\IBM_ADMIN\Desktop\Carepath\Carepath\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SanityTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SanityTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SanityTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SanityTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SanityTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SanityTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 1 failed,  17 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SanityTest" class="hide-methods failed suite-SanityTest"> (hide)</a> <!-- hide-methods failed suite-SanityTest -->
+                      <a href="#" panel-name="suite-SanityTest" class="show-methods failed suite-SanityTest"> (show)</a> <!-- show-methods failed suite-SanityTest -->
+                    </span>
+                    <div class="method-list-content failed suite-SanityTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SanityTest" title="testcases.ProviderRegistration_IndependentSite" hash-for-method="provider_reg_IndependentSite({taxid=123406001, password=Chaith@12345, SitelocationPhone=3534343101, suffix=Sr., LName=Eight, PreS...)">provider_reg_IndependentSite({taxid=123406001, password=Chaith@12345, SitelocationPhone=3534343101, suffix=Sr., LName=Eight, PreS...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SanityTest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-SanityTest" class="hide-methods skipped suite-SanityTest"> (hide)</a> <!-- hide-methods skipped suite-SanityTest -->
+                      <a href="#" panel-name="suite-SanityTest" class="show-methods skipped suite-SanityTest"> (show)</a> <!-- show-methods skipped suite-SanityTest -->
+                    </span>
+                    <div class="method-list-content skipped suite-SanityTest">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SanityTest" title="testcases.PatientLogin" hash-for-method="patient_Login({password=Carepath@1, username=darensam456+1002@gmail.com})">patient_Login({password=Carepath@1, username=darensam456+1002@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SanityTest" title="testcases.Patient_AddCaregiver" hash-for-method="patient_addCaregiver({CGfirstname=TestCGPeter60, CGpassword=Carepath@1, CGrelationship=Parent, CGsuffix=Sr., CGusername=d...)">patient_addCaregiver({CGfirstname=TestCGPeter60, CGpassword=Carepath@1, CGrelationship=Parent, CGsuffix=Sr., CGusername=d...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SanityTest" title="testcases.Patient_Add_PrimaryMedInsurance" hash-for-method="patient_add_primaryInsurance({Cardholderfname=TestSteve48, RelationshiptoCardholder=Self, PolicyNo=21510, username=darensam456+10...)">patient_add_primaryInsurance({Cardholderfname=TestSteve48, RelationshiptoCardholder=Self, PolicyNo=21510, username=darensam456+10...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SanityTest" title="testcases.Patient_Add_SecondaryMedInsurance" hash-for-method="patient_add_secMedInsurance({Cardholderfname=TestSteve102, RelationshiptoCardholder=Self, PolicyNo=21000, username=darensam456+1...)">patient_add_secMedInsurance({Cardholderfname=TestSteve102, RelationshiptoCardholder=Self, PolicyNo=21000, username=darensam456+1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SanityTest" title="testcases.Patient_Add_TreatmentLocation" hash-for-method="patient_add_treatmentlocation">patient_add_treatmentlocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SanityTest" title="testcases.Patient_AddPrescriber" hash-for-method="patient_addprescriber({MI=MI, Zip=10012, Suffix=Jr., Fax=9176914310, PrescriberLastName=TestPresMark62, Phone=7082894325, ...)">patient_addprescriber({MI=MI, Zip=10012, Suffix=Jr., Fax=9176914310, PrescriberLastName=TestPresMark62, Phone=7082894325, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SanityTest" title="testcases.Patient_Edit_PrimaryMedInsurance" hash-for-method="patient_edit_primaryMedInsurance">patient_edit_primaryMedInsurance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SanityTest" title="testcases.Patient_Edit_SecondaryMedInsurance" hash-for-method="patient_edit_secMedInsurance({phone=4564341103, Insurer=Insurer35, password=Carepath@1, username=darensam456+1002@gmail.com})">patient_edit_secMedInsurance({phone=4564341103, Insurer=Insurer35, password=Carepath@1, username=darensam456+1002@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SanityTest" title="testcases.Patient_Edit_TreatmentLocation" hash-for-method="patient_edit_treatmentlocation">patient_edit_treatmentlocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SanityTest" title="testcases.Patient_Edit_PrescriberDetails" hash-for-method="patient_editprescriber">patient_editprescriber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SanityTest" title="testcases.PatientRegistration" hash-for-method="patient_registration({Year=1963, state=NY, address2=abcd, zip=41350, MiddleName=Mr., Month=June, username=darensam456+100...)">patient_registration({Year=1963, state=NY, address2=abcd, zip=41350, MiddleName=Mr., Month=June, username=darensam456+100...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SanityTest" title="testcases.Patient_EditandSave" hash-for-method="patientdetails_editandsave({password=Carepath@1, username=darensam456+1002@gmail.com})">patientdetails_editandsave({password=Carepath@1, username=darensam456+1002@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SanityTest" title="testcases.Patient_forgotPassword" hash-for-method="patientforgotpassword">patientforgotpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SanityTest" title="testcases.ProviderLogin" hash-for-method="provider_Login({Prpassword=Carepath@1, Prusername=darensam456+2000@gmail.com})">provider_Login({Prpassword=Carepath@1, Prusername=darensam456+2000@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SanityTest" title="testcases.ProviderRegistration_NewNetworkSite" hash-for-method="provider_reg_newNetworksite({taxid=343434540, password=Carepath@1, Site1State=FL, suffix=Sr., LName=TestUserNinth, PreSLN=psln13...)">provider_reg_newNetworksite({taxid=343434540, password=Carepath@1, Site1State=FL, suffix=Sr., LName=TestUserNinth, PreSLN=psln13...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SanityTest" title="testcases.ProviderRegistration_SearchExistingSite" hash-for-method="provider_reg_searchExistingSite({speciality=Allergy, SearchCity=NewYork, FName=TestUserTenth, username=darensam456+2000@gmail.com, S...)">provider_reg_searchExistingSite({speciality=Allergy, SearchCity=NewYork, FName=TestUserTenth, username=darensam456+2000@gmail.com, S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SanityTest" title="testcases.Provider_forgotPassword" hash-for-method="providerforgotpassword">providerforgotpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-SanityTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SanityTest" class="panel SanityTest">
+          <div class="suite-SanityTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.ProviderRegistration_IndependentSite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="provider_reg_IndependentSite({taxid=123406001, password=Chaith@12345, SitelocationPhone=3534343101, suffix=Sr., LName=Eight, PreS...)">
+                  </a> <!-- provider_reg_IndependentSite({taxid=123406001, password=Chaith@12345, SitelocationPhone=3534343101, suffix=Sr., LName=Eight, PreS...) -->
+                  <span class="method-name">provider_reg_IndependentSite</span>
+                  <span class="parameters">({taxid=123406001, password=Chaith@12345, SitelocationPhone=3534343101, suffix=Sr., LName=Eight, PreSLN=psln1101, username=chaithtalari+356@gmail.com, address=2888 Southern Avenue, sitename=TestAutoSite208, state=GU, Role=Physician, speciality=Allergy, ptype=Mobile, phone=6570924101, organisationType=Independent, FName=TestUser, SitelocationZip=63783, SitelocationFax=5656565101, city=Tampa, MName=M, StateofLicence=NY, sitelocationtype=Prescriber's Office, prenpi=4350544101, medicalgroup=4567897101})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Locator is not correct
+	at base.TestBase.getElement(TestBase.java:171)
+	at base.TestBase.click(TestBase.java:133)
+	at testcases.ProviderRegistration_IndependentSite.provider_reg_IndependentSite(ProviderRegistration_IndependentSite.java:205)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SanityTest-class-failed -->
+          <div class="suite-SanityTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.Patient_Edit_PrescriberDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="patient_editprescriber">
+                  </a> <!-- patient_editprescriber -->
+                  <span class="method-name">patient_editprescriber</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Patient_Edit_PrescriberDetails.patient_editprescriber(java.util.Hashtable)[pri:0, instance:testcases.Patient_Edit_PrescriberDetails@2dc54ad4] depends on not successfully finished methods
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SanityTest-class-skipped -->
+          <div class="suite-SanityTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.ProviderRegistration_SearchExistingSite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="provider_reg_searchExistingSite({speciality=Allergy, SearchCity=NewYork, FName=TestUserTenth, username=darensam456+2000@gmail.com, S...)">
+                  </a> <!-- provider_reg_searchExistingSite({speciality=Allergy, SearchCity=NewYork, FName=TestUserTenth, username=darensam456+2000@gmail.com, S...) -->
+                  <span class="method-name">provider_reg_searchExistingSite</span>
+                  <span class="parameters">({speciality=Allergy, SearchCity=NewYork, FName=TestUserTenth, username=darensam456+2000@gmail.com, SearchSiteName=TestCarepathSite53, prenpi=2233330330, StateofLicence=NY, PreSLN=psln1234, phone=2323935311, SearchState=NY, MName=M, Role=Physician, LName=TestUserTenth, password=Carepath@1, suffix=Sr., ptype=Mobile})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test ProviderRegistration_SearchExistingSiteas the Run mode is set as NO
+	at testcases.ProviderRegistration_SearchExistingSite.provider_reg_searchExistingSite(ProviderRegistration_SearchExistingSite.java:39)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SanityTest-class-skipped -->
+          <div class="suite-SanityTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.Provider_forgotPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="providerforgotpassword">
+                  </a> <!-- providerforgotpassword -->
+                  <span class="method-name">providerforgotpassword</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Provider_forgotPassword.providerforgotpassword(java.util.Hashtable)[pri:0, instance:testcases.Provider_forgotPassword@48aca48b] depends on not successfully finished methods
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SanityTest-class-skipped -->
+          <div class="suite-SanityTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.ProviderRegistration_NewNetworkSite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="provider_reg_newNetworksite({taxid=343434540, password=Carepath@1, Site1State=FL, suffix=Sr., LName=TestUserNinth, PreSLN=psln13...)">
+                  </a> <!-- provider_reg_newNetworksite({taxid=343434540, password=Carepath@1, Site1State=FL, suffix=Sr., LName=TestUserNinth, PreSLN=psln13...) -->
+                  <span class="method-name">provider_reg_newNetworksite</span>
+                  <span class="parameters">({taxid=343434540, password=Carepath@1, Site1State=FL, suffix=Sr., LName=TestUserNinth, PreSLN=psln1330, NewNetworkSiteFax2=7676767659, username=darensam456+2001@gmail.com, address=2889 Southern Avenue, state=FL, Role=Physician, speciality=Allergy, ptype=Mobile, phone=9056359001, Site1Address=120 abde, organisationType=Network, NetworkName=TestCarepath53, Site1LocationType=Hospital In Patient, FName=TestUserNinth, NetworksiteFax=5656565651, NetworksitePhone=3453432450, MName=M, city=Tampa, StateofLicence=NY, address2=abcded, NewNetworksiteZip2=34543, Site1SiteName=TestCarepathSite53, zip=45657, prenpi=6861648400, NewNetworkSitePhone2=7878787876, Site1MedGrp=Grpname126, Site1City=Tampa, Site1Add2=xys})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test ProviderRegistration_NewNetworkSiteas the Run mode is set as NO
+	at testcases.ProviderRegistration_NewNetworkSite.provider_reg_newNetworksite(ProviderRegistration_NewNetworkSite.java:38)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SanityTest-class-skipped -->
+          <div class="suite-SanityTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.Patient_forgotPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="patientforgotpassword">
+                  </a> <!-- patientforgotpassword -->
+                  <span class="method-name">patientforgotpassword</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Patient_forgotPassword.patientforgotpassword(java.util.Hashtable)[pri:0, instance:testcases.Patient_forgotPassword@54a7079e] depends on not successfully finished methods
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SanityTest-class-skipped -->
+          <div class="suite-SanityTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.Patient_Add_PrimaryMedInsurance</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="patient_add_primaryInsurance({Cardholderfname=TestSteve48, RelationshiptoCardholder=Self, PolicyNo=21510, username=darensam456+10...)">
+                  </a> <!-- patient_add_primaryInsurance({Cardholderfname=TestSteve48, RelationshiptoCardholder=Self, PolicyNo=21510, username=darensam456+10...) -->
+                  <span class="method-name">patient_add_primaryInsurance</span>
+                  <span class="parameters">({Cardholderfname=TestSteve48, RelationshiptoCardholder=Self, PolicyNo=21510, username=darensam456+1002@gmail.com, CardholderDOM=May, Insurer=Insurer34, GroupNo=7185890100, Cardholderbirthday=24, Cardholderlname=TestJohn48, phone=4564341101, phonetype=Mobile, CardholderbirthYear=1971, password=Carepath@1})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test Add Primary Insuranceas the Run mode is set as NO
+	at testcases.Patient_Add_PrimaryMedInsurance.patient_add_primaryInsurance(Patient_Add_PrimaryMedInsurance.java:39)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SanityTest-class-skipped -->
+          <div class="suite-SanityTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.ProviderLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="provider_Login({Prpassword=Carepath@1, Prusername=darensam456+2000@gmail.com})">
+                  </a> <!-- provider_Login({Prpassword=Carepath@1, Prusername=darensam456+2000@gmail.com}) -->
+                  <span class="method-name">provider_Login</span>
+                  <span class="parameters">({Prpassword=Carepath@1, Prusername=darensam456+2000@gmail.com})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test ProviderLoginas the Run mode is set as NO
+	at testcases.ProviderLogin.provider_Login(ProviderLogin.java:56)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SanityTest-class-skipped -->
+          <div class="suite-SanityTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.Patient_AddCaregiver</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="patient_addCaregiver({CGfirstname=TestCGPeter60, CGpassword=Carepath@1, CGrelationship=Parent, CGsuffix=Sr., CGusername=d...)">
+                  </a> <!-- patient_addCaregiver({CGfirstname=TestCGPeter60, CGpassword=Carepath@1, CGrelationship=Parent, CGsuffix=Sr., CGusername=d...) -->
+                  <span class="method-name">patient_addCaregiver</span>
+                  <span class="parameters">({CGfirstname=TestCGPeter60, CGpassword=Carepath@1, CGrelationship=Parent, CGsuffix=Sr., CGusername=darensam456+1002@gmail.com, Cgphone=6546466101, CGemail=darensam456+12@gmail.com, CGmiddlename=M, CGlastname=Parker60})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test Patient_AddCaregiveras the Run mode is set as NO
+	at testcases.Patient_AddCaregiver.patient_addCaregiver(Patient_AddCaregiver.java:45)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SanityTest-class-skipped -->
+          <div class="suite-SanityTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.Patient_Edit_TreatmentLocation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="patient_edit_treatmentlocation">
+                  </a> <!-- patient_edit_treatmentlocation -->
+                  <span class="method-name">patient_edit_treatmentlocation</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Patient_Edit_TreatmentLocation.patient_edit_treatmentlocation(java.util.Hashtable)[pri:0, instance:testcases.Patient_Edit_TreatmentLocation@29215f06] depends on not successfully finished methods
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SanityTest-class-skipped -->
+          <div class="suite-SanityTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.PatientRegistration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="patient_registration({Year=1963, state=NY, address2=abcd, zip=41350, MiddleName=Mr., Month=June, username=darensam456+100...)">
+                  </a> <!-- patient_registration({Year=1963, state=NY, address2=abcd, zip=41350, MiddleName=Mr., Month=June, username=darensam456+100...) -->
+                  <span class="method-name">patient_registration</span>
+                  <span class="parameters">({Year=1963, state=NY, address2=abcd, zip=41350, MiddleName=Mr., Month=June, username=darensam456+1002@gmail.com, phone=9472090000, Date=19, phonetype=Mobile, sex=Male, LastName=Test402, City=New York, FirstName=TestPatient402, address=4109 Lane road, password=Carepath@1, suffix=Sr.})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test PatientRegistrationas the Run mode is set as NO
+	at testcases.PatientRegistration.patient_registration(PatientRegistration.java:44)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SanityTest-class-skipped -->
+          <div class="suite-SanityTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.Patient_Edit_PrimaryMedInsurance</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="patient_edit_primaryMedInsurance">
+                  </a> <!-- patient_edit_primaryMedInsurance -->
+                  <span class="method-name">patient_edit_primaryMedInsurance</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Patient_Edit_PrimaryMedInsurance.patient_edit_primaryMedInsurance(java.util.Hashtable)[pri:0, instance:testcases.Patient_Edit_PrimaryMedInsurance@4b0d79fc] depends on not successfully finished methods
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SanityTest-class-skipped -->
+          <div class="suite-SanityTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.Patient_Add_TreatmentLocation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="patient_add_treatmentlocation">
+                  </a> <!-- patient_add_treatmentlocation -->
+                  <span class="method-name">patient_add_treatmentlocation</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Patient_Add_TreatmentLocation.patient_add_treatmentlocation(java.util.Hashtable)[pri:0, instance:testcases.Patient_Add_TreatmentLocation@2d710f1a] depends on not successfully finished methods
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SanityTest-class-skipped -->
+          <div class="suite-SanityTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.Patient_AddPrescriber</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="patient_addprescriber({MI=MI, Zip=10012, Suffix=Jr., Fax=9176914310, PrescriberLastName=TestPresMark62, Phone=7082894325, ...)">
+                  </a> <!-- patient_addprescriber({MI=MI, Zip=10012, Suffix=Jr., Fax=9176914310, PrescriberLastName=TestPresMark62, Phone=7082894325, ...) -->
+                  <span class="method-name">patient_addprescriber</span>
+                  <span class="parameters">({MI=MI, Zip=10012, Suffix=Jr., Fax=9176914310, PrescriberLastName=TestPresMark62, Phone=7082894325, username=darensam456+1002@gmail.com, Specialty=Pain Medicine, phonetype=Mobile, City=New York, PrescriberFirstName=TestPresJohn62, State=NY, Address1=41767 Longview Avenue, password=Carepath@1, PracticeName=TestPracJohn62})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test Patient_AddPrescriberas the Run mode is set as NO
+	at testcases.Patient_AddPrescriber.patient_addprescriber(Patient_AddPrescriber.java:39)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SanityTest-class-skipped -->
+          <div class="suite-SanityTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.Patient_EditandSave</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="patientdetails_editandsave({password=Carepath@1, username=darensam456+1002@gmail.com})">
+                  </a> <!-- patientdetails_editandsave({password=Carepath@1, username=darensam456+1002@gmail.com}) -->
+                  <span class="method-name">patientdetails_editandsave</span>
+                  <span class="parameters">({password=Carepath@1, username=darensam456+1002@gmail.com})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test Patient_EditandSaveas the Run mode is set as NO
+	at testcases.Patient_EditandSave.patientdetails_editandsave(Patient_EditandSave.java:41)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SanityTest-class-skipped -->
+          <div class="suite-SanityTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.PatientLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="patient_Login({password=Carepath@1, username=darensam456+1002@gmail.com})">
+                  </a> <!-- patient_Login({password=Carepath@1, username=darensam456+1002@gmail.com}) -->
+                  <span class="method-name">patient_Login</span>
+                  <span class="parameters">({password=Carepath@1, username=darensam456+1002@gmail.com})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test PatientLoginas the Run mode is NO
+	at testcases.PatientLogin.patient_Login(PatientLogin.java:42)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SanityTest-class-skipped -->
+          <div class="suite-SanityTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.Patient_Edit_SecondaryMedInsurance</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="patient_edit_secMedInsurance({phone=4564341103, Insurer=Insurer35, password=Carepath@1, username=darensam456+1002@gmail.com})">
+                  </a> <!-- patient_edit_secMedInsurance({phone=4564341103, Insurer=Insurer35, password=Carepath@1, username=darensam456+1002@gmail.com}) -->
+                  <span class="method-name">patient_edit_secMedInsurance</span>
+                  <span class="parameters">({phone=4564341103, Insurer=Insurer35, password=Carepath@1, username=darensam456+1002@gmail.com})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test Patient_Edit_SecondaryMedInsuranceas the Run mode is set as NO
+	at testcases.Patient_Edit_SecondaryMedInsurance.patient_edit_secMedInsurance(Patient_Edit_SecondaryMedInsurance.java:38)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SanityTest-class-skipped -->
+          <div class="suite-SanityTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.Patient_Add_SecondaryMedInsurance</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="patient_add_secMedInsurance({Cardholderfname=TestSteve102, RelationshiptoCardholder=Self, PolicyNo=21000, username=darensam456+1...)">
+                  </a> <!-- patient_add_secMedInsurance({Cardholderfname=TestSteve102, RelationshiptoCardholder=Self, PolicyNo=21000, username=darensam456+1...) -->
+                  <span class="method-name">patient_add_secMedInsurance</span>
+                  <span class="parameters">({Cardholderfname=TestSteve102, RelationshiptoCardholder=Self, PolicyNo=21000, username=darensam456+1002@gmail.com, CardholderDOM=June, Insurer=SecInsurer34, GroupNo=718589000, Cardholderbirthday=25, Cardholderlname=TestJohn102, phone=4864341101, phonetype=Mobile, CardholderbirthYear=1971, password=Carepath@1})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test Patient_Add_SecondaryMedInsuranceas the Run mode is set as NO
+	at testcases.Patient_Add_SecondaryMedInsurance.patient_add_secMedInsurance(Patient_Add_SecondaryMedInsurance.java:39)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SanityTest-class-skipped -->
+        </div> <!-- panel SanityTest -->
+        <div panel-name="test-xml-SanityTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\IBM_ADMIN\Desktop\Carepath\Carepath\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;SanityTest&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;listeners.CustomListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test verbose=&quot;0&quot; name=&quot;SanityTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.PatientRegistration&quot;/&gt;
+      &lt;class name=&quot;testcases.PatientLogin&quot;/&gt;
+      &lt;class name=&quot;testcases.Patient_forgotPassword&quot;/&gt;
+      &lt;class name=&quot;testcases.Patient_EditandSave&quot;/&gt;
+      &lt;class name=&quot;testcases.Patient_AddCaregiver&quot;/&gt;
+      &lt;class name=&quot;testcases.Patient_AddPrescriber&quot;/&gt;
+      &lt;class name=&quot;testcases.Patient_Edit_PrescriberDetails&quot;/&gt;
+      &lt;class name=&quot;testcases.Patient_Add_PrimaryMedInsurance&quot;/&gt;
+      &lt;class name=&quot;testcases.Patient_Edit_PrimaryMedInsurance&quot;/&gt;
+      &lt;class name=&quot;testcases.Patient_Add_SecondaryMedInsurance&quot;/&gt;
+      &lt;class name=&quot;testcases.Patient_Edit_SecondaryMedInsurance&quot;/&gt;
+      &lt;class name=&quot;testcases.Patient_Add_TreatmentLocation&quot;/&gt;
+      &lt;class name=&quot;testcases.Patient_Edit_TreatmentLocation&quot;/&gt;
+      &lt;class name=&quot;testcases.ProviderRegistration_IndependentSite&quot;/&gt;
+      &lt;class name=&quot;testcases.ProviderLogin&quot;/&gt;
+      &lt;class name=&quot;testcases.Provider_forgotPassword&quot;/&gt;
+      &lt;class name=&quot;testcases.ProviderRegistration_NewNetworkSite&quot;/&gt;
+      &lt;class name=&quot;testcases.ProviderRegistration_SearchExistingSite&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SanityTest --&gt;
+&lt;/suite&gt; &lt;!-- SanityTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SanityTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SanityTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SanityTest (18 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SanityTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SanityTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SanityTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SanityTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SanityTest');
+function tableData_SanityTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'provider_reg_IndependentSite')
+data.setCell(0, 2, 'testcases.ProviderRegistration_IndependentSite')
+data.setCell(0, 3, 229705);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'patient_registration')
+data.setCell(1, 2, 'testcases.PatientRegistration')
+data.setCell(1, 3, 8);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'patientdetails_editandsave')
+data.setCell(2, 2, 'testcases.Patient_EditandSave')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'provider_Login')
+data.setCell(3, 2, 'testcases.ProviderLogin')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'patient_add_secMedInsurance')
+data.setCell(4, 2, 'testcases.Patient_Add_SecondaryMedInsurance')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'patient_addprescriber')
+data.setCell(5, 2, 'testcases.Patient_AddPrescriber')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'provider_reg_searchExistingSite')
+data.setCell(6, 2, 'testcases.ProviderRegistration_SearchExistingSite')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'provider_reg_newNetworksite')
+data.setCell(7, 2, 'testcases.ProviderRegistration_NewNetworkSite')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'patient_add_primaryInsurance')
+data.setCell(8, 2, 'testcases.Patient_Add_PrimaryMedInsurance')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'patient_edit_secMedInsurance')
+data.setCell(9, 2, 'testcases.Patient_Edit_SecondaryMedInsurance')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'patient_edit_treatmentlocation')
+data.setCell(10, 2, 'testcases.Patient_Edit_TreatmentLocation')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'patient_addCaregiver')
+data.setCell(11, 2, 'testcases.Patient_AddCaregiver')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'patient_editprescriber')
+data.setCell(12, 2, 'testcases.Patient_Edit_PrescriberDetails')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'patientforgotpassword')
+data.setCell(13, 2, 'testcases.Patient_forgotPassword')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'providerforgotpassword')
+data.setCell(14, 2, 'testcases.Provider_forgotPassword')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'patient_Login')
+data.setCell(15, 2, 'testcases.PatientLogin')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'patient_add_treatmentlocation')
+data.setCell(16, 2, 'testcases.Patient_Add_TreatmentLocation')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'patient_edit_primaryMedInsurance')
+data.setCell(17, 2, 'testcases.Patient_Edit_PrimaryMedInsurance')
+data.setCell(17, 3, 0);
+window.suiteTableData['SanityTest']= { tableData: data, tableDiv: 'times-div-SanityTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-SanityTest">
+              </div> <!-- times-div-SanityTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SanityTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SanityTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SanityTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">34 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.Patient_Edit_PrescriberDetails</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.ProviderRegistration_SearchExistingSite</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.Provider_forgotPassword</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.ProviderRegistration_NewNetworkSite</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.Patient_forgotPassword</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.Patient_Add_PrimaryMedInsurance</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.Patient_AddCaregiver</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.ProviderLogin</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.ProviderRegistration_IndependentSite</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.Patient_Edit_TreatmentLocation</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.Patient_Edit_PrimaryMedInsurance</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.Patient_Add_TreatmentLocation</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.Patient_AddPrescriber</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.PatientLogin</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.Patient_EditandSave</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.Patient_Edit_SecondaryMedInsurance</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.Patient_Add_SecondaryMedInsurance</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SanityTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PatientRegistration</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">patient_registration({Year=1963, state=NY, address2=abcd, zip=41350, MiddleName=Mr., Month=June, username=darensam456+100...)</span>
+                <span class="method-start">3034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">3374 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PatientLogin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">patient_Login({password=Carepath@1, username=darensam456+1002@gmail.com})</span>
+                <span class="method-start">3391 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">3436 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Patient_EditandSave</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">patientdetails_editandsave({password=Carepath@1, username=darensam456+1002@gmail.com})</span>
+                <span class="method-start">3484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">3519 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Patient_AddCaregiver</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">patient_addCaregiver({CGfirstname=TestCGPeter60, CGpassword=Carepath@1, CGrelationship=Parent, CGsuffix=Sr., CGusername=d...)</span>
+                <span class="method-start">3529 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">3565 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Patient_AddPrescriber</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">patient_addprescriber({MI=MI, Zip=10012, Suffix=Jr., Fax=9176914310, PrescriberLastName=TestPresMark62, Phone=7082894325, ...)</span>
+                <span class="method-start">3575 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">3606 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Patient_Add_PrimaryMedInsurance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">patient_add_primaryInsurance({Cardholderfname=TestSteve48, RelationshiptoCardholder=Self, PolicyNo=21510, username=darensam456+10...)</span>
+                <span class="method-start">3640 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">3674 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Patient_Add_SecondaryMedInsurance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">patient_add_secMedInsurance({Cardholderfname=TestSteve102, RelationshiptoCardholder=Self, PolicyNo=21000, username=darensam456+1...)</span>
+                <span class="method-start">3709 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">3736 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Patient_Edit_SecondaryMedInsurance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">patient_edit_secMedInsurance({phone=4564341103, Insurer=Insurer35, password=Carepath@1, username=darensam456+1002@gmail.com})</span>
+                <span class="method-start">3744 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">3770 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.ProviderRegistration_IndependentSite</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">provider_reg_IndependentSite({taxid=123406001, password=Chaith@12345, SitelocationPhone=3534343101, suffix=Sr., LName=Eight, PreS...)</span>
+                <span class="method-start">3820 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">234138 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.ProviderLogin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">provider_Login({Prpassword=Carepath@1, Prusername=darensam456+2000@gmail.com})</span>
+                <span class="method-start">234406 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">234482 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.ProviderRegistration_NewNetworkSite</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">provider_reg_newNetworksite({taxid=343434540, password=Carepath@1, Site1State=FL, suffix=Sr., LName=TestUserNinth, PreSLN=psln13...)</span>
+                <span class="method-start">234610 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">234660 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.ProviderRegistration_SearchExistingSite</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">provider_reg_searchExistingSite({speciality=Allergy, SearchCity=NewYork, FName=TestUserTenth, username=darensam456+2000@gmail.com, S...)</span>
+                <span class="method-start">234724 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">234802 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PatientRegistration</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">234893 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
